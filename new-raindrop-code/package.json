@@ -1,0 +1,15 @@
+{
+  "name": "smartbiz-api",
+  "version": "1.0.0",
+  "description": "Raindrop Function for natural language database queries using SmartSQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

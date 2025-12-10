@@ -1,0 +1,4 @@
+# file: C:\Users\Hacker\Desktop\smartbiz\backend\services\cerebras_service.py
+# hypothesis_version: 6.148.7
+
+[0.7, 1024, 'Authorization', 'CEREBRAS_API_KEY', 'Content-Type', 'application/json', 'bbbee', 'bee', 'billing', 'choices', 'content', 'empowerment', 'government', 'help', 'invoice', 'llama-3.1-8b', 'max_tokens', 'message', 'messages', 'model', 'payment', 'role', 'sars', 'seda', 'support', 'system', 'tax', 'temperature', 'user', 'vat']

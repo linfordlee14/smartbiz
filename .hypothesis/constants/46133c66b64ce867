@@ -1,0 +1,4 @@
+# file: C:\Users\Hacker\Desktop\smartbiz\backend\app.py
+# hypothesis_version: 6.148.7
+
+[404, 500, 5000, '/api/health', '0.0.0.0', '1.0.0', 'DATABASE_URL', 'FLASK_ENV', 'FLASK_PORT', 'FRONTEND_URL', 'GET', 'Resource not found', 'SECRET_KEY', 'SmartBiz SA Backend', '__main__', 'dev-secret-key', 'development', 'error', 'healthy', 'service', 'status', 'version']

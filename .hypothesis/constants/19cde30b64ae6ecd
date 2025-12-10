@@ -1,0 +1,4 @@
+# file: C:\Users\Hacker\Desktop\smartbiz\backend\routes\chat.py
+# hypothesis_version: 6.148.7
+
+[200, 400, 500, '/api', '/chat', '/chat/voice', '/chat/voices', '/smartsql', 'Content-Disposition', 'GET', 'Message required', 'POST', 'Query required', 'audio/mpeg', 'audio_data', 'chat', 'context', 'enable_voice', 'error', 'message', 'query', 'response', 'results', 'sql', 'success', 'voice_error', 'voice_id', 'voices']

@@ -1,0 +1,4 @@
+# file: C:\Users\Hacker\Desktop\smartbiz\backend\services\invoice_service.py
+# hypothesis_version: 6.148.7
+
+[0.15, 1000, 'Business not found', 'business_id', 'client_name', 'client_vat', 'created_at', 'due_date', 'error', 'id', 'invoice_number', 'is_paid', 'issued_date', 'items_json', 'paid_date', 'quantity', 'total_excl_vat', 'total_incl_vat', 'unit_price', 'vat_amount']

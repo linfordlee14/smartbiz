@@ -1,0 +1,4 @@
+# file: C:\Users\Hacker\Desktop\smartbiz\backend\services\elevenlabs_service.py
+# hypothesis_version: 6.148.7
+
+[0.5, 0.75, 200, 'Accept', 'Antoni', 'Clyde', 'Content-Type', 'Dave', 'Domi', 'Drew', 'ELEVENLABS_API_KEY', 'ELEVENLABS_VOICE_ID', 'Fin', 'Paul', 'Rachel', 'Sarah', 'Thomas', 'antoni', 'application/json', 'audio/mpeg', 'audio_data', 'clyde', 'dave', 'detail', 'domi', 'drew', 'error', 'fin', 'id', 'message', 'model_id', 'name', 'paul', 'preview_url', 'rachel', 'sarah', 'similarity_boost', 'stability', 'success', 'text', 'thomas', 'voice_id', 'voice_settings', 'voices', 'xi-api-key']

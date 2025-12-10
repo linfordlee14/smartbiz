@@ -1,0 +1,16 @@
+name = "smartbiz-api"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "smartbiz-db"
+database_id = "bcc260f9-a89f-490d-a2ae-e3f761a43bfd"
+
+# SmartSQL binding for natural language queries
+[[smartsql]]
+binding = "SSQL"
+database_binding = "DB"
+
+[vars]
+ENVIRONMENT = "production"

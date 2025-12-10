@@ -1,0 +1,4 @@
+# file: C:\Users\Hacker\Desktop\smartbiz\backend\routes\invoice.py
+# hypothesis_version: 6.148.7
+
+[200, 201, 400, 404, '/<invoice_id>', '/api/invoice', '/generate', '/list/<business_id>', 'GET', 'Invoice not found', 'POST', 'business_id', 'client_name', 'client_vat', 'due_date', 'error', 'invoice', 'invoices', 'items']
