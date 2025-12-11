@@ -2,12 +2,12 @@
 
 <!-- Banner Image Placeholder -->
 ![SmartBiz SA Banner](./assets/banner.png)
-*[Banner image placeholder - Add your custom banner here]*
+
 
 <div align="center">
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-blue?style=for-the-badge)](https://smartbiz-sa.netlify.app)
-[![LiquidMetal x Vultr](https://img.shields.io/badge/🏆_Hackathon-LiquidMetal_x_Vultr-purple?style=for-the-badge)](https://liquidmetal.devpost.com/))
+[![LiquidMetal x Vultr](https://img.shields.io/badge/🏆_Hackathon-LiquidMetal_x_Vultr-purple?style=for-the-badge)](https://liquidmetal.devpost.com/)
 [![License](https://img.shields.io/badge/📄_License-MIT-green?style=for-the-badge)](./LICENSE)
 
 </div>
