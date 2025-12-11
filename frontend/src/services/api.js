@@ -3,8 +3,26 @@
  * Centralized interface for React frontend to communicate with SmartBiz SA Flask backend
  */
 
-// Configuration
-const BASE_URL = 'http://localhost:5000';
+// Configuration - Environment-aware API base URL
+const getApiBaseUrl = () => {
+    // In development, use localhost
+    if (
+        import.meta.env.DEV) {
+        return 'http://localhost:5000';
+    }
+
+    // In production, use environment variable
+    const productionUrl =
+        import.meta.env.VITE_API_URL;
+    if (!productionUrl) {
+        console.error('API base URL is not configured. Set VITE_API_URL in Netlify.');
+        throw new Error('API base URL is not configured for production');
+    }
+
+    return productionUrl;
+};
+
+const API_BASE_URL = getApiBaseUrl();
 
 /**
  * Shared error handling helper function
@@ -81,7 +99,7 @@ async function sendMessage(message, context) {
         body.context = context;
     }
 
-    return handleRequest(`${BASE_URL}/api/chat`, createPostOptions(body));
+    return handleRequest(`${API_BASE_URL}/api/chat`, createPostOptions(body));
 }
 
 /**
@@ -112,7 +130,7 @@ async function sendMessageWithVoice(message, context, voice_id) {
     }
 
     try {
-        const response = await fetch(`${BASE_URL}/api/chat/voice`, createPostOptions(body));
+        const response = await fetch(`${API_BASE_URL}/api/chat/voice`, createPostOptions(body));
 
         if (!response.ok) {
             const data = await response.json();
@@ -192,7 +210,7 @@ async function generateInvoice(business_id, client_name, items, client_vat, due_
         body.due_date = due_date;
     }
 
-    return handleRequest(`${BASE_URL}/api/invoice/generate`, createPostOptions(body));
+    return handleRequest(`${API_BASE_URL}/api/invoice/generate`, createPostOptions(body));
 }
 
 /**
@@ -209,7 +227,7 @@ async function runSmartSQL(query) {
         };
     }
 
-    return handleRequest(`${BASE_URL}/api/smartsql`, createPostOptions({
+    return handleRequest(`${API_BASE_URL}/api/smartsql`, createPostOptions({
         query
     }));
 }
@@ -228,7 +246,7 @@ async function downloadInvoicePdf(invoice_id) {
     }
 
     try {
-        const response = await fetch(`${BASE_URL}/api/invoice/${invoice_id}/pdf`);
+        const response = await fetch(`${API_BASE_URL}/api/invoice/${invoice_id}/pdf`);
 
         if (!response.ok) {
             const data = await response.json();
@@ -246,7 +264,7 @@ async function downloadInvoicePdf(invoice_id) {
 }
 
 export {
-    BASE_URL,
+    API_BASE_URL,
     handleRequest,
     createPostOptions,
     isValidStringInput,
