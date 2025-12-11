@@ -4,7 +4,7 @@
 **The AI CFO for South African Entrepreneurs**
 
 ## 💡 Inspiration
-Small business owners in South Africa face a perfect storm of challenges: navigating complex SARS tax regulations, maintaining strict VAT compliance, and making informed financial decisions—all while lacking the resources to hire a dedicated CFO. We saw an opportunity to democratize financial expertise through AI.
+Small business owners in South Africa face a perfect storm of challenges: navigating complex SARS tax regulations, maintaining strict VAT compliance, and making informed financial decisions-all while lacking the resources to hire a dedicated CFO. We saw an opportunity to democratize financial expertise through AI.
 
 ## 🎯 What it does
 SmartBiz SA is a secure, AI-powered financial management platform that acts as your virtual CFO:
@@ -86,7 +86,7 @@ SmartBiz SA has the potential to **democratize financial expertise** for South A
 ## 🔗 Links
 - **Live Demo**: [smartbiz-sa.netlify.app](https://smartbiz-sa.netlify.app)
 - **GitHub Repository**: [github.com/yourusername/smartbiz-sa](https://github.com/yourusername/smartbiz-sa)
-- **Backend API**: [smartbiz-backend-ufam.onrender.com](https://smartbiz-backend-ufam.onrender.com)
+
 
 ## 🏷️ Built With
 `python` `flask` `react` `vultr` `cerebras` `raindrop` `liquidmetal` `elevenlabs` `ai` `fintech` `south-africa` `sars` `vat` `invoicing` `analytics` `voice-ai` `serverless` `cloudflare-workers`
